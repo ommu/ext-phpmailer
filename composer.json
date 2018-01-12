@@ -1,0 +1,39 @@
+{
+	"name": "ommu/phpmailer",
+	"description": "PHPMailer for Ommu Platform",
+	"keywords": [
+		"extension",
+		"phpmailer",
+		"email",
+		"sendemail",
+		"mailer",
+		"ommu",
+		"platform",
+		"ommu platform"
+	],
+	"homepage": "https://github.com/ommu/ommu-phpmailer",
+	"type": "ommu-extension",
+	"license": "Apache-2.0",
+	"support": {
+		"issues": "https://github.com/ommu/ommu-phpmailer/issues",
+		"wiki": "https://github.com/ommu/ommu-phpmailer/wiki",
+		"source": "https://github.com/ommu/ommu-phpmailer"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ommu/ommu-phpmailer.git"
+	},
+	"authors": [
+		{
+			"name": "Putra Sudaryanto",
+			"email": "putra@sudaryanto.id",
+			"homepage": "https://putra.sudaryanto.id",
+			"role": "Creator"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"oomphinc/composer-installers-extender": "^1.0",
+		"phpmailer/phpmailer": "~6.0"
+	}
+}
