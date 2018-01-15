@@ -23,7 +23,7 @@ class Mailer
 	/**
 	 * Sent Email
 	 */
-	public static function send($to_email=null, $to_name=null, $subject, $message, $cc=null, $attachment=null, $passing=true, $edebug=0) 
+	public static function send($to_email=null, $to_name=null, $subject, $message, $cc=null, $attachment=null, $passing=false, $edebug=0) 
 	{
 		ini_set('max_execution_time', 0);
 		ob_start();
@@ -114,7 +114,6 @@ class Mailer
 					return false;
 					//echo 'Message could not be sent.';
 				}
-
 			} catch (Exception $e) {
 				echo 'Message could not be sent.';
 				echo 'Mailer Error: ' . $mail->ErrorInfo;
