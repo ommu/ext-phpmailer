@@ -10,9 +10,6 @@
  *
  */
 
-$vendor_path = Yii::getPathOfAlias('application.vendor');
-require_once($vendor_path.'/autoload.php'); // register Yii autoloader
-
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
