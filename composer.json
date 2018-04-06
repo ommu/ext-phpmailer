@@ -1,6 +1,6 @@
 {
 	"name": "ommu/phpmailer",
-	"description": "PHPMailer for Ommu Platform",
+	"description": "PHPMailer from Ommu Platform",
 	"keywords": [
 		"extension",
 		"phpmailer",
@@ -8,20 +8,19 @@
 		"sendemail",
 		"mailer",
 		"ommu",
-		"platform",
 		"ommu platform"
 	],
-	"homepage": "https://github.com/ommu/ommu-phpmailer",
+	"homepage": "https://github.com/ommu/ext-phpmailer",
 	"type": "ommu-extension",
 	"license": "Apache-2.0",
 	"support": {
-		"issues": "https://github.com/ommu/ommu-phpmailer/issues",
-		"wiki": "https://github.com/ommu/ommu-phpmailer/wiki",
-		"source": "https://github.com/ommu/ommu-phpmailer"
+		"issues": "https://github.com/ommu/ext-phpmailer/issues",
+		"wiki": "https://github.com/ommu/ext-phpmailer/wiki",
+		"source": "https://github.com/ommu/ext-phpmailer"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ommu/ommu-phpmailer.git"
+		"url": "https://github.com/ommu/ext-phpmailer.git"
 	},
 	"authors": [
 		{
