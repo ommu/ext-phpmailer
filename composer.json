@@ -8,7 +8,7 @@
 		"sendemail",
 		"mailer",
 		"ommu",
-		"ommu platform"
+		"ommu-platform"
 	],
 	"homepage": "https://github.com/ommu/ext-phpmailer",
 	"type": "ommu-extension",
