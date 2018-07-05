@@ -4,7 +4,7 @@
  *
  * @author Putra Sudaryanto <putra@sudaryanto.id>
  * @contact (+62)856-299-4114
- * @copyright Copyright (c) 2018 Ommu Platform (opensource.ommu.co)
+ * @copyright Copyright (c) 2018 Ommu Platform (www.ommu.co)
  * @create date January 12, 2018 15:11 WIB
  * @link https://github.com/ommu/ommu-core
  *
@@ -25,7 +25,7 @@ class Mailer
 		ini_set('max_execution_time', 0);
 		ob_start();
 		
-		$model = SupportMailSetting::model()->findByPk(1,array(
+		$model = SupportMailSetting::model()->findByPk(1, array(
 			'select' => 'mail_contact, mail_name, mail_from, mail_smtp, smtp_address, smtp_port, smtp_username, smtp_password, smtp_ssl',
 		));
 		$setting = OmmuSettings::model()->findByPk(1, array(
